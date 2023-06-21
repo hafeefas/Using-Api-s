@@ -6,7 +6,9 @@ import AppComponent from'./Components/AppComponent.jsx'
 function mainApp() {
   return (
     <div className="App">
-      <AppComponent header = 'Gif search'/>
+      <AppComponent />
+      <img src ="https://image.emojipng.com/596/9830596.jpg" style={{ width:"100px"}} alt='logo'/> 
+
       
     </div>
   );

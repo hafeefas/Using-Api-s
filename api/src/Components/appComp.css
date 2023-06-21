@@ -3,6 +3,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
+    border: solid black;
+    padding:20px;
+    margin-bottom: 10px;
+    margin-top:40px;
      /* this will all make everything appear in the middle */
      /* with 5 columns and 5 rows */
   }

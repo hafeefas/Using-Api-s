@@ -139,7 +139,12 @@ const AppComponent = () => {
       }
 
 return (
-    <div >
+    <div>
+        <section style={{marginTop:"30px", marginBottom:"25px", fontStyle:"italic", border:"solid pink 2px" ,borderBottom:"solid pink", fontFamily:"georgia" , padding:"20px"}}>
+            Welcome to Giphy React, the ultimate destination for all things GIF! 
+        </section>
+
+
         {/* this is for the search button: */}
             <div className='m-2'>
             <form style={{ width: '50%', margin: '0 auto' }} className="justify-content-center">

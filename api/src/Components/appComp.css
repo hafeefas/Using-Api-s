@@ -1,0 +1,26 @@
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+     /* this will all make everything appear in the middle */
+     /* with 5 columns and 5 rows */
+  }
+  
+  .gif {
+    margin: 15px;
+    /* this seperates all the gifs from each other */
+  }
+  
+  .gif img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    box-shadow: 4px 4px 4px  pink;
+  }
+    .loader .fa-spinner {
+        color: pink; /* Replace with your desired color */
+  }

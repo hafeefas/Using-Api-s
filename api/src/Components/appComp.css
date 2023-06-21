@@ -3,8 +3,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
-    border: solid black;
-    padding:20px;
+    border: solid pink 1px;
+    box-shadow: #f977a2 10px;
+    padding:50px;
     margin-bottom: 10px;
     margin-top:40px;
      /* this will all make everything appear in the middle */
@@ -12,17 +13,17 @@
   }
   
   .gif {
-    margin: 15px;
+    margin: 30px;
     /* this seperates all the gifs from each other */
   }
   
   .gif img {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 30px;
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
-    box-shadow: 4px 4px 4px  pink;
+    box-shadow: 10px 9px 4px  black;
   }
     .loader .fa-spinner {
         color: pink; /* Replace with your desired color */

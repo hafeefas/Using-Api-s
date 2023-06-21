@@ -140,7 +140,7 @@ const AppComponent = () => {
 
 return (
     <div>
-        <section style={{marginTop:"30px", marginBottom:"25px", fontStyle:"italic", border:"solid pink 2px" ,borderBottom:"solid pink", fontFamily:"georgia" , padding:"20px"}}>
+        <section style={{marginTop:"30px", marginBottom:"55px", fontStyle:"italic", border:"solid pink 2px" ,borderBottom:"solid pink", fontFamily:"georgia" , padding:"20px"}}>
             Welcome to Giphy React, the ultimate destination for all things GIF! 
         </section>
 

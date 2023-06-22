@@ -28,7 +28,7 @@ const AppComponent = () => {
         console.log('fetchGif(start)')
       try {
         // first, get trending links information,
-        const result  = await axios.get('http://api.giphy.com/v1/gifs/trending',
+        const result  = await axios.get('https://api.giphy.com/v1/gifs/trending',
         {
           params: {
             api_key: 'Fb5Lhkj3yaMQJvkawOQbBCd0dVvlkueo',
